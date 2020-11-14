@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>D3 Workshop - Week 01</title>
+    <style>
+      /* simple reset */
+      html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
+        margin: 0;  
+        padding: 0;  
+        border: 0;  
+        font-size: 100%;  
+        font: inherit;  
+        vertical-align: baseline; 
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="viz"></div>
+  
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    
+    <script>
+      let margin = {top: 30, right: 30, bottom: 130, left: 30},
+          width = 960 - margin.right - margin.left,
+          height = 500 - margin.top - margin.bottom;
+
+      let svg = d3.select('#viz')
+        .append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g')
+        .attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+      d3.csv('sales.csv', (d) => {
+          d.sales = +d.sales;
+          return d;
+      }).then((results) => {
+          //x scale
+          let x = d3.scaleBand()
+            .domain(results.map(d => d.flavors))
+            .range([0, width])
+            .padding(0.1);
+
+          //y scale
+          let y = d3.scaleLinear()
+            .domain([0, d3.max(results, d => d.sales)])
+            .range([height, 0]); //height is inverted due to the way svgs are handled in browser
+          
+          svg.append('g')
+            .call(d3.axisLeft(y));
+          
+          svg.append('g')
+            .attr('transform', `translate(0, ${height})`)
+            .call(d3.axisBottom(x))
+              .selectAll('text')
+              .attr('x', x.bandwidth()/2)
+              .attr('y', 0)
+              .attr('dy', '.35em')
+              .attr('transform', 'rotate(90)')
+              .attr('text-anchor', 'start');
+
+          let bar = svg.selectAll('.bar')
+              .data(results)
+              .enter()
+              .append('g')
+              .attr('class', 'bar-group');
+          
+          bar.append('rect')
+            .attr('class', 'bar')
+            .attr('x', d => x(d.flavors))
+            .attr('y', d => y(d.sales))
+            .attr('width', x.bandwidth())
+            .attr('height', d => height - y(d.sales))
+            .style('fill', 'steelblue');
+
+          bar.append('text')
+            .text(d => d.sales)
+            .attr('x', d => x(d.flavors) + (x.bandwidth()/2))
+            .attr('y', d => y(d.sales) + 15)
+            .attr('text-anchor', 'middle')
+            .style('font-family', 'sans-serif')
+            .style('font-size', 10)
+            .style('fill', 'white');
+
+          
+
+      }).catch((error) => {
+          throw error;
+      });
+
+    </script>
+  </body>
+
+</html>

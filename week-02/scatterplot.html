@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>D3 Workshop: Scatterplot</title>
+    <style>
+      * {
+        font-family: sans-serif;
+        font-size: 10px;
+      }
+
+      .svg-tooltip {
+        background: rgba(80, 80, 80, .9);
+        color: #fff;
+        display: block;
+        padding: .2rem .4rem;
+        border-radius: .1rem;
+        position: absolute;
+        z-index: 1;
+        visibility: hidden;
+        pointer-events: none;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="scatterplot"></div>
+    
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    
+    <script>
+      let margin = {top: 30, right: 150, bottom: 30, left: 30},
+          width = 650 - margin.right - margin.left,
+          height = 500 - margin.top - margin.bottom;
+
+      let svg = d3.select('#scatterplot')
+        .append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g')
+        .attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+    </script>
+  </body>
+
+</html>

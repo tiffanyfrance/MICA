@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 Workshop: Line Chart</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <div id="linechart"></div>
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+
+  <script>
+    let margin = { top: 30, right: 30, bottom: 30, left: 50 },
+      width = 960 - margin.right - margin.left,
+      height = 500 - margin.top - margin.bottom;
+
+    let svg = d3.select('#linechart')
+      .append('svg')
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height + margin.top + margin.bottom)
+      .append('g')
+      .attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+    d3.json('covid-confirmed-us.json')
+      .then((results) => {
+          
+      }).catch((error) => {
+        throw error;
+      });
+  </script>
+</body>
+
+</html>
