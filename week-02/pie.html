@@ -8,7 +8,7 @@
       margin: 0 auto;
       max-width: 500px;
     }
-    
+
     * {
       font-family: sans-serif;
       font-size: xx-small;
@@ -23,58 +23,11 @@
   <script>
 
     d3.csv('covid-by-month-2020.csv', (d) => {
-      d.value = +d.value;
-      return d;
+
     })
-      .then((data) => {
+    .then((data) => {
 
-        let width = 300,
-          height = 300;
-
-        const pie = d3.pie()
-          .padAngle(0.005)
-          .sort(null)
-          .value(d => d.value)
-
-        const radius = Math.min(width, height) / 2;
-
-        let arc = d3.arc().innerRadius(radius * 0.67).outerRadius(radius);
-
-        const arcs = pie(data);
-
-        const svg = d3.select('#piechart')
-          .append('svg')
-          .attr("viewBox", [-width / 2, -height / 2, width, height]);
-
-        let color = d3.scaleOrdinal()
-          .domain(data.map(d => d.name))
-          .range(d3.quantize(t => d3.interpolateSpectral(t * 0.8 + 0.1), data.length).reverse())
-
-        svg.selectAll("path")
-          .data(arcs)
-          .join("path")
-          .attr("fill", d => color(d.data.name))
-          .attr("d", arc)
-          .append("title")
-          .text(d => `${d.data.name}: ${d.data.value.toLocaleString()}`);
-
-        //text
-        svg.append("g")
-          .attr("text-anchor", "middle")
-          .selectAll("text")
-          .data(arcs)
-          .join("text")
-          .attr("transform", d => `translate(${arc.centroid(d)})`)
-          .call(text => text.append("tspan")
-            .attr("y", "-0.4em")
-            .attr("font-weight", "bold")
-            .text(d => d.data.name))
-          .call(text => text.filter(d => (d.endAngle - d.startAngle) > 0.25).append("tspan")
-            .attr("x", 0)
-            .attr("y", "0.7em")
-            .attr("fill-opacity", 0.7)
-            .text(d => d.data.value.toLocaleString()));
-      });
+    });
 
   </script>
 </body>
