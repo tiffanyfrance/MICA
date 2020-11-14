@@ -22,7 +22,7 @@
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <script>
 
-    d3.csv('population-by-age.csv', (d) => {
+    d3.csv('covid-by-month-2020.csv', (d) => {
       d.value = +d.value;
       return d;
     })
@@ -38,11 +38,9 @@
 
         const radius = Math.min(width, height) / 2;
 
-        let arc = d3.arc().innerRadius(radius * 0.67).outerRadius(radius - 1);
+        let arc = d3.arc().innerRadius(radius * 0.67).outerRadius(radius);
 
         const arcs = pie(data);
-
-        console.log(data);
 
         const svg = d3.select('#piechart')
           .append('svg')
