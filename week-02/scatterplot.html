@@ -29,16 +29,95 @@
     <script src="https://d3js.org/d3.v6.min.js"></script>
     
     <script>
+      const tooltip = d3.select('body')
+        .append('div')
+        .attr('class', 'svg-tooltip');
+
       let margin = {top: 30, right: 150, bottom: 30, left: 30},
-          width = 650 - margin.right - margin.left,
+          width = 850 - margin.right - margin.left,
           height = 500 - margin.top - margin.bottom;
 
-      let svg = d3.select('#scatterplot')
+          let svg = d3.select('#scatterplot')
         .append('svg')
         .attr('width', width + margin.left + margin.right)
         .attr('height', height + margin.top + margin.bottom)
         .append('g')
         .attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+      d3.json('data200.json')
+      .then((data) => {
+        let genres = new Set(data.map(d => d.genre));
+        genres = Array.from(genres);
+
+        let genreColors = {};
+
+        for (let i = 0; i < genres.length; i++) {
+          genreColors[genres[i]] = d3.schemeCategory10[i];
+        }
+
+        console.log(genreColors);
+
+        let x = d3.scaleTime()
+          .domain([new Date('1740-01-01 00:00:00'), new Date('2020-12-31 00:00:00')]).nice()
+          .range([0, width]);
+        
+        let y = d3.scaleLinear()
+          .domain(d3.extent(data, d => d.avgRating)).nice()
+          .range([height - margin.bottom, margin.top]);
+
+        svg.append('g')
+          .call(d3.axisLeft(y));
+        
+        svg.append('g')
+          .attr('transform', `translate(0, ${height - margin.top})`)
+          .call(d3.axisBottom(x));
+        
+        let circles = svg.selectAll('circle')
+          .data(data)
+          .enter()
+          .append('circle')
+          .attr('cx', d => x(new Date(d.publicationYear)))
+          .attr('cy', d => y(d.avgRating))
+          .attr('r', 4)
+          .style('fill', (d) => genreColors[d.genre])
+          .on('mouseover', function(e,d) {
+            d3.select(this).attr('stroke', 'black');
+
+            tooltip.style('visibility', 'visible');
+
+            tooltip
+              .style('top', (e.pageY - 10) + 'px')
+              .style('left', (e.pageX + 10) + 'px')
+              .html(`Title: ${d.title}<br>Rating: ${d.avgRating}`);
+          })
+          .on('mouseout', function() {
+            d3.select(this).attr('stroke', 'none');
+
+            tooltip.style('visibility', 'hidden');
+          });
+
+          let legend = svg.append('g')
+            .attr('transform', `translate(${width}, ${margin.top})`);
+
+          for (let i = 0; i < genres.length; i++) {
+            let item = legend.append('g');
+
+            item.append('circle')
+              .attr('cx', 40)
+              .attr('cy', i * 20)
+              .attr('r', 4)
+              .attr('fill', genreColors[genres[i]]);
+            
+            item.append('text')
+              .attr('x', 50)
+              .attr('y', i * 20)
+              .attr('dominant-baseline', 'middle')
+              .text(genres[i]);
+          }
+
+      }).catch((error) => {
+        throw error;
+      })
 
     </script>
   </body>

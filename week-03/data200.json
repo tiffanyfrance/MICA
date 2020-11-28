@@ -1,0 +1,2001 @@
+[{
+  "id": "0",
+  "title": "Sky in the Future", 
+  "fullName": "Joe Edwards", 
+  "genre": "Fantasy",
+  "publicationYear": "1975",
+  "avgRating": "9.13",
+  "reviewCount": "21",
+  "pageCount": "330" 
+  },
+{
+  "id": "1",
+  "title": "Zenith", 
+  "fullName": "Ulysses Carter", 
+  "genre": "Literary Fiction",
+  "publicationYear": "2019",
+  "avgRating": "3.52",
+  "reviewCount": "143",
+  "pageCount": "633" 
+  },
+{
+  "id": "2",
+  "title": "The the Widow of Madrid", 
+  "fullName": "A.K. Rogers", 
+  "genre": "Fantasy",
+  "publicationYear": "1951",
+  "avgRating": "7.11",
+  "reviewCount": "123",
+  "pageCount": "526" 
+  },
+{
+  "id": "3",
+  "title": "Forlorn Pear", 
+  "fullName": "Jessica Aikin", 
+  "genre": "Horror",
+  "publicationYear": "1906",
+  "avgRating": "1.16",
+  "reviewCount": "79",
+  "pageCount": "623" 
+  },
+{
+  "id": "4",
+  "title": "Dueling in Derbyshire", 
+  "fullName": "Peter Davidson", 
+  "genre": "YA",
+  "publicationYear": "1900",
+  "avgRating": "9.23",
+  "reviewCount": "58",
+  "pageCount": "180" 
+  },
+{
+  "id": "5",
+  "title": "Years", 
+  "fullName": "Tully Jones", 
+  "genre": "YA",
+  "publicationYear": "1985",
+  "avgRating": "1.05",
+  "reviewCount": "9",
+  "pageCount": "215" 
+  },
+{
+  "id": "6",
+  "title": "The Losing Rain", 
+  "fullName": "Melissa Ortiz", 
+  "genre": "YA",
+  "publicationYear": "1754",
+  "avgRating": "8.23",
+  "reviewCount": "91",
+  "pageCount": "446" 
+  },
+{
+  "id": "7",
+  "title": "Cull", 
+  "fullName": "Frank Eastman", 
+  "genre": "YA",
+  "publicationYear": "1965",
+  "avgRating": "7.89",
+  "reviewCount": "110",
+  "pageCount": "263" 
+  },
+{
+  "id": "8",
+  "title": "Empty", 
+  "fullName": "Wendy Woo", 
+  "genre": "Fantasy",
+  "publicationYear": "1844",
+  "avgRating": "9.56",
+  "reviewCount": "60",
+  "pageCount": "584" 
+  },
+{
+  "id": "9",
+  "title": "The Pig of Alcatraz", 
+  "fullName": "Joe Shaffer", 
+  "genre": "Horror",
+  "publicationYear": "2001",
+  "avgRating": "9.70",
+  "reviewCount": "17",
+  "pageCount": "529" 
+  },
+{
+  "id": "10",
+  "title": "The Fig of the Swamp", 
+  "fullName": "Alex Vanderpool", 
+  "genre": "SciFi",
+  "publicationYear": "1996",
+  "avgRating": "6.13",
+  "reviewCount": "3",
+  "pageCount": "353" 
+  },
+{
+  "id": "11",
+  "title": "Praying Fig", 
+  "fullName": "Aubrey Davis", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1936",
+  "avgRating": "8.35",
+  "reviewCount": "88",
+  "pageCount": "420" 
+  },
+{
+  "id": "12",
+  "title": "Crow in High Tower", 
+  "fullName": "CJ Clark", 
+  "genre": "SciFi",
+  "publicationYear": "1969",
+  "avgRating": "5.28",
+  "reviewCount": "177",
+  "pageCount": "725" 
+  },
+{
+  "id": "13",
+  "title": "Crime", 
+  "fullName": "Ulysses Moore", 
+  "genre": "Drama",
+  "publicationYear": "1784",
+  "avgRating": "4.31",
+  "reviewCount": "48",
+  "pageCount": "609" 
+  },
+{
+  "id": "14",
+  "title": "Deciding Constellations", 
+  "fullName": "Hal Sandstrom", 
+  "genre": "Romance",
+  "publicationYear": "1874",
+  "avgRating": "7.65",
+  "reviewCount": "176",
+  "pageCount": "356" 
+  },
+{
+  "id": "15",
+  "title": "The Killing Clock", 
+  "fullName": "Nancy Hughes", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1800",
+  "avgRating": "2.72",
+  "reviewCount": "13",
+  "pageCount": "302" 
+  },
+{
+  "id": "16",
+  "title": "Princess Bear", 
+  "fullName": "Julie Celedon", 
+  "genre": "SciFi",
+  "publicationYear": "1833",
+  "avgRating": "8.04",
+  "reviewCount": "92",
+  "pageCount": "670" 
+  },
+{
+  "id": "17",
+  "title": "Cloak House", 
+  "fullName": "Yolanda Mitchell", 
+  "genre": "SciFi",
+  "publicationYear": "1988",
+  "avgRating": "6.02",
+  "reviewCount": "64",
+  "pageCount": "343" 
+  },
+{
+  "id": "18",
+  "title": "The Passing Planet", 
+  "fullName": "A.K. Ferro", 
+  "genre": "Horror",
+  "publicationYear": "1850",
+  "avgRating": "1.58",
+  "reviewCount": "46",
+  "pageCount": "632" 
+  },
+{
+  "id": "19",
+  "title": "Paris", 
+  "fullName": "Tim Vanderpool", 
+  "genre": "Biography",
+  "publicationYear": "1955",
+  "avgRating": "7.39",
+  "reviewCount": "105",
+  "pageCount": "447" 
+  },
+{
+  "id": "20",
+  "title": "Ambitious", 
+  "fullName": "Beatrice Sawyer", 
+  "genre": "Romance",
+  "publicationYear": "1944",
+  "avgRating": "7.91",
+  "reviewCount": "86",
+  "pageCount": "221" 
+  },
+{
+  "id": "21",
+  "title": "Sticky", 
+  "fullName": "Jessica Bateman", 
+  "genre": "SciFi",
+  "publicationYear": "2002",
+  "avgRating": "9.71",
+  "reviewCount": "164",
+  "pageCount": "727" 
+  },
+{
+  "id": "22",
+  "title": "The Erupting Bus", 
+  "fullName": "Julie Young", 
+  "genre": "Biography",
+  "publicationYear": "2003",
+  "avgRating": "9.56",
+  "reviewCount": "16",
+  "pageCount": "477" 
+  },
+{
+  "id": "23",
+  "title": "Cloud", 
+  "fullName": "Queen White", 
+  "genre": "Romance",
+  "publicationYear": "1925",
+  "avgRating": "9.48",
+  "reviewCount": "123",
+  "pageCount": "211" 
+  },
+{
+  "id": "24",
+  "title": "The Fig of Heights", 
+  "fullName": "Catherine Mccord", 
+  "genre": "Horror",
+  "publicationYear": "1940",
+  "avgRating": "6.31",
+  "reviewCount": "106",
+  "pageCount": "300" 
+  },
+{
+  "id": "25",
+  "title": "Poor", 
+  "fullName": "Illy Turner", 
+  "genre": "SciFi",
+  "publicationYear": "1788",
+  "avgRating": "9.26",
+  "reviewCount": "171",
+  "pageCount": "407" 
+  },
+{
+  "id": "26",
+  "title": "Miami", 
+  "fullName": "Larry Schmitt", 
+  "genre": "Romance",
+  "publicationYear": "1969",
+  "avgRating": "8.38",
+  "reviewCount": "37",
+  "pageCount": "200" 
+  },
+{
+  "id": "27",
+  "title": "The Child in the Alps", 
+  "fullName": "Matthew Johnsen", 
+  "genre": "YA",
+  "publicationYear": "1963",
+  "avgRating": "3.49",
+  "reviewCount": "123",
+  "pageCount": "375" 
+  },
+{
+  "id": "28",
+  "title": "Strange", 
+  "fullName": "Tully Doran", 
+  "genre": "YA",
+  "publicationYear": "1924",
+  "avgRating": "8.89",
+  "reviewCount": "81",
+  "pageCount": "216" 
+  },
+{
+  "id": "29",
+  "title": "Man and Cloud", 
+  "fullName": "Jack Baxster", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1905",
+  "avgRating": "2.23",
+  "reviewCount": "98",
+  "pageCount": "412" 
+  },
+{
+  "id": "30",
+  "title": "Empty", 
+  "fullName": "Carl DeLorenzo", 
+  "genre": "Horror",
+  "publicationYear": "1973",
+  "avgRating": "7.75",
+  "reviewCount": "180",
+  "pageCount": "689" 
+  },
+{
+  "id": "31",
+  "title": "Aloof Crown", 
+  "fullName": "Carl McGinnis", 
+  "genre": "YA",
+  "publicationYear": "2014",
+  "avgRating": "5.03",
+  "reviewCount": "142",
+  "pageCount": "678" 
+  },
+{
+  "id": "32",
+  "title": "The Stone of Ghosthouse", 
+  "fullName": "Ben Chapman", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1853",
+  "avgRating": "6.28",
+  "reviewCount": "63",
+  "pageCount": "188" 
+  },
+{
+  "id": "33",
+  "title": "Rich", 
+  "fullName": "George Martinez", 
+  "genre": "SciFi",
+  "publicationYear": "2007",
+  "avgRating": "8.80",
+  "reviewCount": "190",
+  "pageCount": "426" 
+  },
+{
+  "id": "34",
+  "title": "Seasons and Wind", 
+  "fullName": "Julie Sullivan", 
+  "genre": "Fantasy",
+  "publicationYear": "2003",
+  "avgRating": "6.38",
+  "reviewCount": "61",
+  "pageCount": "539" 
+  },
+{
+  "id": "35",
+  "title": "The Future", 
+  "fullName": "Pam Gomez", 
+  "genre": "Horror",
+  "publicationYear": "1962",
+  "avgRating": "9.73",
+  "reviewCount": "93",
+  "pageCount": "634" 
+  },
+{
+  "id": "36",
+  "title": "Forbid", 
+  "fullName": "Ben Myers", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1908",
+  "avgRating": "9.96",
+  "reviewCount": "104",
+  "pageCount": "525" 
+  },
+{
+  "id": "37",
+  "title": "Rain and Preacher", 
+  "fullName": "Aubrey Zeller", 
+  "genre": "Fantasy",
+  "publicationYear": "2014",
+  "avgRating": "8.22",
+  "reviewCount": "150",
+  "pageCount": "278" 
+  },
+{
+  "id": "38",
+  "title": "Serpent", 
+  "fullName": "Yolanda Scott", 
+  "genre": "YA",
+  "publicationYear": "2018",
+  "avgRating": "6.16",
+  "reviewCount": "130",
+  "pageCount": "648" 
+  },
+{
+  "id": "39",
+  "title": "Trial Tree", 
+  "fullName": "L Ferry", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1980",
+  "avgRating": "8.89",
+  "reviewCount": "128",
+  "pageCount": "661" 
+  },
+{
+  "id": "40",
+  "title": "Homeless", 
+  "fullName": "Edward Ripka", 
+  "genre": "Romance",
+  "publicationYear": "1832",
+  "avgRating": "8.30",
+  "reviewCount": "14",
+  "pageCount": "216" 
+  },
+{
+  "id": "41",
+  "title": "Deliver", 
+  "fullName": "Carl Eastman", 
+  "genre": "YA",
+  "publicationYear": "1800",
+  "avgRating": "6.10",
+  "reviewCount": "194",
+  "pageCount": "236" 
+  },
+{
+  "id": "42",
+  "title": "Complaining Cloud", 
+  "fullName": "Julie Doran", 
+  "genre": "SciFi",
+  "publicationYear": "1948",
+  "avgRating": "3.26",
+  "reviewCount": "22",
+  "pageCount": "236" 
+  },
+{
+  "id": "43",
+  "title": "Adventure", 
+  "fullName": "Walter Ramirez", 
+  "genre": "Horror",
+  "publicationYear": "1964",
+  "avgRating": "8.26",
+  "reviewCount": "29",
+  "pageCount": "292" 
+  },
+{
+  "id": "44",
+  "title": "The Calling Pioneers", 
+  "fullName": "Paul Edwards", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1954",
+  "avgRating": "6.40",
+  "reviewCount": "25",
+  "pageCount": "201" 
+  },
+{
+  "id": "45",
+  "title": "Crown in Oz", 
+  "fullName": "Carl Johnson", 
+  "genre": "Biography",
+  "publicationYear": "1940",
+  "avgRating": "7.58",
+  "reviewCount": "195",
+  "pageCount": "477" 
+  },
+{
+  "id": "46",
+  "title": "Passing House", 
+  "fullName": "Zhu Cooper", 
+  "genre": "SciFi",
+  "publicationYear": "1986",
+  "avgRating": "6.06",
+  "reviewCount": "194",
+  "pageCount": "596" 
+  },
+{
+  "id": "47",
+  "title": "Homeless Spring", 
+  "fullName": "Zhu Mills", 
+  "genre": "SciFi",
+  "publicationYear": "1789",
+  "avgRating": "6.85",
+  "reviewCount": "142",
+  "pageCount": "582" 
+  },
+{
+  "id": "48",
+  "title": "Dusty", 
+  "fullName": "Walter Fietzer", 
+  "genre": "YA",
+  "publicationYear": "1924",
+  "avgRating": "2.95",
+  "reviewCount": "104",
+  "pageCount": "451" 
+  },
+{
+  "id": "49",
+  "title": "Dusty", 
+  "fullName": "Fred Sonderling", 
+  "genre": "SciFi",
+  "publicationYear": "1918",
+  "avgRating": "9.38",
+  "reviewCount": "196",
+  "pageCount": "723" 
+  },
+{
+  "id": "50",
+  "title": "Tibet", 
+  "fullName": "Roger White", 
+  "genre": "Romance",
+  "publicationYear": "1758",
+  "avgRating": "6.68",
+  "reviewCount": "190",
+  "pageCount": "326" 
+  },
+{
+  "id": "51",
+  "title": "Princess", 
+  "fullName": "Fred Schwager", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1919",
+  "avgRating": "1.52",
+  "reviewCount": "174",
+  "pageCount": "446" 
+  },
+{
+  "id": "52",
+  "title": "Great", 
+  "fullName": "Mandy Baxster", 
+  "genre": "Drama",
+  "publicationYear": "1792",
+  "avgRating": "5.20",
+  "reviewCount": "22",
+  "pageCount": "748" 
+  },
+{
+  "id": "53",
+  "title": "Losing Snow", 
+  "fullName": "Helen Wood", 
+  "genre": "Horror",
+  "publicationYear": "1867",
+  "avgRating": "7.87",
+  "reviewCount": "26",
+  "pageCount": "334" 
+  },
+{
+  "id": "54",
+  "title": "Melting in High Tower", 
+  "fullName": "Adam Sullivan", 
+  "genre": "Drama",
+  "publicationYear": "1924",
+  "avgRating": "9.95",
+  "reviewCount": "118",
+  "pageCount": "449" 
+  },
+{
+  "id": "55",
+  "title": "Leaning Straw", 
+  "fullName": "Tim Price", 
+  "genre": "Romance",
+  "publicationYear": "1959",
+  "avgRating": "7.86",
+  "reviewCount": "138",
+  "pageCount": "606" 
+  },
+{
+  "id": "56",
+  "title": "Moon Fig", 
+  "fullName": "Alicia Darnell", 
+  "genre": "Drama",
+  "publicationYear": "1873",
+  "avgRating": "8.25",
+  "reviewCount": "123",
+  "pageCount": "521" 
+  },
+{
+  "id": "57",
+  "title": "The Culling Pride", 
+  "fullName": "Paul Walker", 
+  "genre": "YA",
+  "publicationYear": "1858",
+  "avgRating": "2.38",
+  "reviewCount": "130",
+  "pageCount": "347" 
+  },
+{
+  "id": "58",
+  "title": "Dragon Cloak", 
+  "fullName": "George Thomas", 
+  "genre": "YA",
+  "publicationYear": "1822",
+  "avgRating": "8.39",
+  "reviewCount": "26",
+  "pageCount": "381" 
+  },
+{
+  "id": "59",
+  "title": "Subtle Spring", 
+  "fullName": "Taz Ziegler", 
+  "genre": "YA",
+  "publicationYear": "1954",
+  "avgRating": "6.65",
+  "reviewCount": "199",
+  "pageCount": "580" 
+  },
+{
+  "id": "60",
+  "title": "Miserable", 
+  "fullName": "Jack Myers", 
+  "genre": "Horror",
+  "publicationYear": "1943",
+  "avgRating": "7.72",
+  "reviewCount": "176",
+  "pageCount": "310" 
+  },
+{
+  "id": "61",
+  "title": "Tall", 
+  "fullName": "Hank Diaz", 
+  "genre": "Romance",
+  "publicationYear": "1916",
+  "avgRating": "8.69",
+  "reviewCount": "40",
+  "pageCount": "607" 
+  },
+{
+  "id": "62",
+  "title": "Delivering in Madrid", 
+  "fullName": "Sally Campbell", 
+  "genre": "Biography",
+  "publicationYear": "1779",
+  "avgRating": "3.29",
+  "reviewCount": "186",
+  "pageCount": "479" 
+  },
+{
+  "id": "63",
+  "title": "Killing Tree", 
+  "fullName": "Melissa Campbell", 
+  "genre": "Horror",
+  "publicationYear": "2002",
+  "avgRating": "6.40",
+  "reviewCount": "50",
+  "pageCount": "650" 
+  },
+{
+  "id": "64",
+  "title": "Aloof Station", 
+  "fullName": "Beth Nelson", 
+  "genre": "Romance",
+  "publicationYear": "1809",
+  "avgRating": "7.76",
+  "reviewCount": "84",
+  "pageCount": "679" 
+  },
+{
+  "id": "65",
+  "title": "Zenith", 
+  "fullName": "Paul Murphy", 
+  "genre": "Biography",
+  "publicationYear": "1787",
+  "avgRating": "7.60",
+  "reviewCount": "116",
+  "pageCount": "709" 
+  },
+{
+  "id": "66",
+  "title": "The Sweating Bus", 
+  "fullName": "Helen Bateman", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1896",
+  "avgRating": "5.76",
+  "reviewCount": "165",
+  "pageCount": "223" 
+  },
+{
+  "id": "67",
+  "title": "Sweating in Madrid", 
+  "fullName": "Ingrid Reardon", 
+  "genre": "Horror",
+  "publicationYear": "1975",
+  "avgRating": "2.81",
+  "reviewCount": "74",
+  "pageCount": "168" 
+  },
+{
+  "id": "68",
+  "title": "Prickly", 
+  "fullName": "Ben Watson", 
+  "genre": "SciFi",
+  "publicationYear": "2019",
+  "avgRating": "7.62",
+  "reviewCount": "188",
+  "pageCount": "463" 
+  },
+{
+  "id": "69",
+  "title": "Great", 
+  "fullName": "John Barnes", 
+  "genre": "Fantasy",
+  "publicationYear": "2020",
+  "avgRating": "3.99",
+  "reviewCount": "25",
+  "pageCount": "704" 
+  },
+{
+  "id": "70",
+  "title": "Rich Moon", 
+  "fullName": "Frida Richardson", 
+  "genre": "Fantasy",
+  "publicationYear": "1943",
+  "avgRating": "9.27",
+  "reviewCount": "137",
+  "pageCount": "208" 
+  },
+{
+  "id": "71",
+  "title": "Planet", 
+  "fullName": "Ike Gonzalez", 
+  "genre": "Biography",
+  "publicationYear": "2002",
+  "avgRating": "7.84",
+  "reviewCount": "122",
+  "pageCount": "201" 
+  },
+{
+  "id": "72",
+  "title": "Station and Planet", 
+  "fullName": "Zhu Keller", 
+  "genre": "YA",
+  "publicationYear": "1952",
+  "avgRating": "6.09",
+  "reviewCount": "101",
+  "pageCount": "506" 
+  },
+{
+  "id": "73",
+  "title": "Sticky Woman", 
+  "fullName": "Frida Schuster", 
+  "genre": "SciFi",
+  "publicationYear": "1999",
+  "avgRating": "3.81",
+  "reviewCount": "180",
+  "pageCount": "733" 
+  },
+{
+  "id": "74",
+  "title": "Arrogant House", 
+  "fullName": "Alex Walker", 
+  "genre": "Fantasy",
+  "publicationYear": "1931",
+  "avgRating": "6.41",
+  "reviewCount": "149",
+  "pageCount": "316" 
+  },
+{
+  "id": "75",
+  "title": "Deciding Man", 
+  "fullName": "Otto Flores", 
+  "genre": "Fantasy",
+  "publicationYear": "1905",
+  "avgRating": "7.71",
+  "reviewCount": "88",
+  "pageCount": "324" 
+  },
+{
+  "id": "76",
+  "title": "Spring in the Desert", 
+  "fullName": "Mark Ramirez", 
+  "genre": "Horror",
+  "publicationYear": "1906",
+  "avgRating": "9.42",
+  "reviewCount": "8",
+  "pageCount": "194" 
+  },
+{
+  "id": "77",
+  "title": "Cloud in the Swamp", 
+  "fullName": "Helen Young", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1994",
+  "avgRating": "8.55",
+  "reviewCount": "108",
+  "pageCount": "452" 
+  },
+{
+  "id": "78",
+  "title": "Wind the Widow", 
+  "fullName": "John Ward", 
+  "genre": "SciFi",
+  "publicationYear": "1962",
+  "avgRating": "4.36",
+  "reviewCount": "98",
+  "pageCount": "526" 
+  },
+{
+  "id": "79",
+  "title": "Red Fog", 
+  "fullName": "Monte Ortiz", 
+  "genre": "YA",
+  "publicationYear": "1925",
+  "avgRating": "3.09",
+  "reviewCount": "14",
+  "pageCount": "217" 
+  },
+{
+  "id": "80",
+  "title": "Culling in High Tower", 
+  "fullName": "Alicia Jones", 
+  "genre": "YA",
+  "publicationYear": "1960",
+  "avgRating": "3.04",
+  "reviewCount": "150",
+  "pageCount": "293" 
+  },
+{
+  "id": "81",
+  "title": "Leaning in West", 
+  "fullName": "Patricia Ortiz", 
+  "genre": "Romance",
+  "publicationYear": "1947",
+  "avgRating": "1.99",
+  "reviewCount": "155",
+  "pageCount": "416" 
+  },
+{
+  "id": "82",
+  "title": "Wealthy Moon", 
+  "fullName": "Olivia Eastman", 
+  "genre": "YA",
+  "publicationYear": "1876",
+  "avgRating": "4.97",
+  "reviewCount": "26",
+  "pageCount": "357" 
+  },
+{
+  "id": "83",
+  "title": "Leaning Blood", 
+  "fullName": "Trina Carter", 
+  "genre": "Horror",
+  "publicationYear": "1923",
+  "avgRating": "8.30",
+  "reviewCount": "31",
+  "pageCount": "277" 
+  },
+{
+  "id": "84",
+  "title": "Great Moon", 
+  "fullName": "Ellen Ross", 
+  "genre": "Romance",
+  "publicationYear": "1811",
+  "avgRating": "6.29",
+  "reviewCount": "76",
+  "pageCount": "732" 
+  },
+{
+  "id": "85",
+  "title": "Boiling Apology", 
+  "fullName": "Ebony Bauer", 
+  "genre": "SciFi",
+  "publicationYear": "1985",
+  "avgRating": "3.02",
+  "reviewCount": "86",
+  "pageCount": "707" 
+  },
+{
+  "id": "86",
+  "title": "The Moors", 
+  "fullName": "Matthew Roberts", 
+  "genre": "Biography",
+  "publicationYear": "1968",
+  "avgRating": "8.76",
+  "reviewCount": "197",
+  "pageCount": "228" 
+  },
+{
+  "id": "87",
+  "title": "Praying in Space", 
+  "fullName": "Nancy Parker", 
+  "genre": "Romance",
+  "publicationYear": "2017",
+  "avgRating": "8.72",
+  "reviewCount": "64",
+  "pageCount": "641" 
+  },
+{
+  "id": "88",
+  "title": "Great", 
+  "fullName": "Monte Taylor", 
+  "genre": "Drama",
+  "publicationYear": "2002",
+  "avgRating": "6.51",
+  "reviewCount": "116",
+  "pageCount": "639" 
+  },
+{
+  "id": "89",
+  "title": "The House of High Tower", 
+  "fullName": "Matthew Murphy", 
+  "genre": "Fantasy",
+  "publicationYear": "2005",
+  "avgRating": "8.30",
+  "reviewCount": "183",
+  "pageCount": "640" 
+  },
+{
+  "id": "90",
+  "title": "The Hitting Pride", 
+  "fullName": "Helen Leisinger", 
+  "genre": "Fantasy",
+  "publicationYear": "1983",
+  "avgRating": "9.91",
+  "reviewCount": "15",
+  "pageCount": "586" 
+  },
+{
+  "id": "91",
+  "title": "Grass and Crown", 
+  "fullName": "Nancy Cook", 
+  "genre": "Romance",
+  "publicationYear": "1867",
+  "avgRating": "9.92",
+  "reviewCount": "65",
+  "pageCount": "578" 
+  },
+{
+  "id": "92",
+  "title": "Alcatraz", 
+  "fullName": "Dan Weiss", 
+  "genre": "YA",
+  "publicationYear": "1833",
+  "avgRating": "6.25",
+  "reviewCount": "89",
+  "pageCount": "545" 
+  },
+{
+  "id": "93",
+  "title": "Winter", 
+  "fullName": "CJ Moody", 
+  "genre": "Drama",
+  "publicationYear": "1970",
+  "avgRating": "3.96",
+  "reviewCount": "26",
+  "pageCount": "472" 
+  },
+{
+  "id": "94",
+  "title": "Clover", 
+  "fullName": "Frida Cooper", 
+  "genre": "SciFi",
+  "publicationYear": "1999",
+  "avgRating": "6.81",
+  "reviewCount": "136",
+  "pageCount": "552" 
+  },
+{
+  "id": "95",
+  "title": "Crow", 
+  "fullName": "Georgia Dinkins", 
+  "genre": "YA",
+  "publicationYear": "2018",
+  "avgRating": "6.11",
+  "reviewCount": "129",
+  "pageCount": "613" 
+  },
+{
+  "id": "96",
+  "title": "The Crown of Alcatraz", 
+  "fullName": "Jack Weiss", 
+  "genre": "SciFi",
+  "publicationYear": "1994",
+  "avgRating": "3.17",
+  "reviewCount": "128",
+  "pageCount": "229" 
+  },
+{
+  "id": "97",
+  "title": "Happy", 
+  "fullName": "Otto Howard", 
+  "genre": "SciFi",
+  "publicationYear": "2018",
+  "avgRating": "8.34",
+  "reviewCount": "105",
+  "pageCount": "172" 
+  },
+{
+  "id": "98",
+  "title": "The Calling Winter", 
+  "fullName": "Trina Schutz", 
+  "genre": "YA",
+  "publicationYear": "2005",
+  "avgRating": "9.29",
+  "reviewCount": "147",
+  "pageCount": "510" 
+  },
+{
+  "id": "99",
+  "title": "Pig and Years", 
+  "fullName": "Joe Illingsworth", 
+  "genre": "Drama",
+  "publicationYear": "1768",
+  "avgRating": "1.88",
+  "reviewCount": "31",
+  "pageCount": "265" 
+  },
+{
+  "id": "100",
+  "title": "Cloak in Heaven", 
+  "fullName": "Walter Maki", 
+  "genre": "SciFi",
+  "publicationYear": "1750",
+  "avgRating": "6.66",
+  "reviewCount": "189",
+  "pageCount": "406" 
+  },
+{
+  "id": "101",
+  "title": "The Serpent of the Swamp", 
+  "fullName": "Thomas Davis", 
+  "genre": "Fantasy",
+  "publicationYear": "1953",
+  "avgRating": "4.92",
+  "reviewCount": "135",
+  "pageCount": "581" 
+  },
+{
+  "id": "102",
+  "title": "Cold Stone", 
+  "fullName": "Aaron Davis", 
+  "genre": "SciFi",
+  "publicationYear": "1773",
+  "avgRating": "9.61",
+  "reviewCount": "199",
+  "pageCount": "491" 
+  },
+{
+  "id": "103",
+  "title": "Derbyshire", 
+  "fullName": "Nathan Morris", 
+  "genre": "Biography",
+  "publicationYear": "1778",
+  "avgRating": "7.57",
+  "reviewCount": "47",
+  "pageCount": "339" 
+  },
+{
+  "id": "104",
+  "title": "Dry Animal", 
+  "fullName": "Beth Schuster", 
+  "genre": "YA",
+  "publicationYear": "1944",
+  "avgRating": "9.15",
+  "reviewCount": "2",
+  "pageCount": "454" 
+  },
+{
+  "id": "105",
+  "title": "Spectre and Bear", 
+  "fullName": "Peter Robinson", 
+  "genre": "Biography",
+  "publicationYear": "1911",
+  "avgRating": "7.93",
+  "reviewCount": "114",
+  "pageCount": "455" 
+  },
+{
+  "id": "106",
+  "title": "Purple School", 
+  "fullName": "A.K. Lewis", 
+  "genre": "Drama",
+  "publicationYear": "1923",
+  "avgRating": "3.30",
+  "reviewCount": "171",
+  "pageCount": "706" 
+  },
+{
+  "id": "107",
+  "title": "House", 
+  "fullName": "Taz Adams", 
+  "genre": "YA",
+  "publicationYear": "2013",
+  "avgRating": "9.17",
+  "reviewCount": "28",
+  "pageCount": "364" 
+  },
+{
+  "id": "108",
+  "title": "Solitude", 
+  "fullName": "Larry Miller", 
+  "genre": "Fantasy",
+  "publicationYear": "1992",
+  "avgRating": "8.21",
+  "reviewCount": "166",
+  "pageCount": "442" 
+  },
+{
+  "id": "109",
+  "title": "Cloak in Chicago", 
+  "fullName": "Ingrid Lee", 
+  "genre": "Romance",
+  "publicationYear": "1918",
+  "avgRating": "7.73",
+  "reviewCount": "65",
+  "pageCount": "535" 
+  },
+{
+  "id": "110",
+  "title": "Missing in Jupiter", 
+  "fullName": "Roger Fletcher", 
+  "genre": "Drama",
+  "publicationYear": "1953",
+  "avgRating": "8.79",
+  "reviewCount": "123",
+  "pageCount": "259" 
+  },
+{
+  "id": "111",
+  "title": "Hill Straw", 
+  "fullName": "Beth Bennett", 
+  "genre": "Romance",
+  "publicationYear": "1759",
+  "avgRating": "8.06",
+  "reviewCount": "42",
+  "pageCount": "205" 
+  },
+{
+  "id": "112",
+  "title": "Ambitious Wind", 
+  "fullName": "Yolanda Jones", 
+  "genre": "YA",
+  "publicationYear": "1950",
+  "avgRating": "9.90",
+  "reviewCount": "121",
+  "pageCount": "279" 
+  },
+{
+  "id": "113",
+  "title": "Hidden", 
+  "fullName": "Peter Anderson", 
+  "genre": "SciFi",
+  "publicationYear": "1995",
+  "avgRating": "8.44",
+  "reviewCount": "179",
+  "pageCount": "230" 
+  },
+{
+  "id": "114",
+  "title": "The Adventure of Sea Side", 
+  "fullName": "Frank Powell", 
+  "genre": "YA",
+  "publicationYear": "1866",
+  "avgRating": "2.16",
+  "reviewCount": "155",
+  "pageCount": "645" 
+  },
+{
+  "id": "115",
+  "title": "The Hitting Blood", 
+  "fullName": "Aubrey Lewis", 
+  "genre": "Drama",
+  "publicationYear": "1971",
+  "avgRating": "7.95",
+  "reviewCount": "126",
+  "pageCount": "565" 
+  },
+{
+  "id": "116",
+  "title": "Subtle", 
+  "fullName": "A.K. Bell", 
+  "genre": "Horror",
+  "publicationYear": "1995",
+  "avgRating": "7.78",
+  "reviewCount": "51",
+  "pageCount": "226" 
+  },
+{
+  "id": "117",
+  "title": "Frozen Pear", 
+  "fullName": "Peter Bauer", 
+  "genre": "Romance",
+  "publicationYear": "2002",
+  "avgRating": "2.98",
+  "reviewCount": "192",
+  "pageCount": "316" 
+  },
+{
+  "id": "118",
+  "title": "Arrogant", 
+  "fullName": "Edward Hall", 
+  "genre": "SciFi",
+  "publicationYear": "1850",
+  "avgRating": "2.47",
+  "reviewCount": "46",
+  "pageCount": "463" 
+  },
+{
+  "id": "119",
+  "title": "Guns in Badlands", 
+  "fullName": "Aubrey Hoffman", 
+  "genre": "YA",
+  "publicationYear": "1967",
+  "avgRating": "9.91",
+  "reviewCount": "126",
+  "pageCount": "665" 
+  },
+{
+  "id": "120",
+  "title": "Buffalo", 
+  "fullName": "Walter Allen", 
+  "genre": "Drama",
+  "publicationYear": "1857",
+  "avgRating": "3.22",
+  "reviewCount": "73",
+  "pageCount": "433" 
+  },
+{
+  "id": "121",
+  "title": "Secret", 
+  "fullName": "Otto Baker", 
+  "genre": "Romance",
+  "publicationYear": "1952",
+  "avgRating": "8.45",
+  "reviewCount": "141",
+  "pageCount": "378" 
+  },
+{
+  "id": "122",
+  "title": "Purple", 
+  "fullName": "L Keller", 
+  "genre": "Horror",
+  "publicationYear": "1955",
+  "avgRating": "4.79",
+  "reviewCount": "15",
+  "pageCount": "723" 
+  },
+{
+  "id": "123",
+  "title": "The Station", 
+  "fullName": "Alicia Chambers", 
+  "genre": "Horror",
+  "publicationYear": "1816",
+  "avgRating": "6.58",
+  "reviewCount": "10",
+  "pageCount": "237" 
+  },
+{
+  "id": "124",
+  "title": "Secret the Salesman", 
+  "fullName": "Xiomina Lewis", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1979",
+  "avgRating": "1.51",
+  "reviewCount": "174",
+  "pageCount": "272" 
+  },
+{
+  "id": "125",
+  "title": "Dueling in the Future", 
+  "fullName": "Adam Adams", 
+  "genre": "Drama",
+  "publicationYear": "1831",
+  "avgRating": "8.06",
+  "reviewCount": "107",
+  "pageCount": "331" 
+  },
+{
+  "id": "126",
+  "title": "Trial in Long Beach", 
+  "fullName": "Matthew Wakefield", 
+  "genre": "Drama",
+  "publicationYear": "2008",
+  "avgRating": "1.08",
+  "reviewCount": "182",
+  "pageCount": "539" 
+  },
+{
+  "id": "127",
+  "title": "Subtle Animal", 
+  "fullName": "Xiomina Wood", 
+  "genre": "YA",
+  "publicationYear": "1918",
+  "avgRating": "3.29",
+  "reviewCount": "149",
+  "pageCount": "288" 
+  },
+{
+  "id": "128",
+  "title": "Thick", 
+  "fullName": "Tully King", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1950",
+  "avgRating": "8.39",
+  "reviewCount": "156",
+  "pageCount": "639" 
+  },
+{
+  "id": "129",
+  "title": "Punishing in Antarctica", 
+  "fullName": "Tim Shaffer", 
+  "genre": "YA",
+  "publicationYear": "1897",
+  "avgRating": "8.68",
+  "reviewCount": "144",
+  "pageCount": "242" 
+  },
+{
+  "id": "130",
+  "title": "Rapturous", 
+  "fullName": "Frank Eastman", 
+  "genre": "Fantasy",
+  "publicationYear": "2016",
+  "avgRating": "9.56",
+  "reviewCount": "40",
+  "pageCount": "501" 
+  },
+{
+  "id": "131",
+  "title": "Fig and the Salesman", 
+  "fullName": "Franny Morales", 
+  "genre": "Drama",
+  "publicationYear": "1776",
+  "avgRating": "1.43",
+  "reviewCount": "143",
+  "pageCount": "574" 
+  },
+{
+  "id": "132",
+  "title": "The Fig of the Station", 
+  "fullName": "Otto Kalleg", 
+  "genre": "SciFi",
+  "publicationYear": "1981",
+  "avgRating": "7.56",
+  "reviewCount": "76",
+  "pageCount": "738" 
+  },
+{
+  "id": "133",
+  "title": "Preacher and Hill", 
+  "fullName": "Zhu Root", 
+  "genre": "YA",
+  "publicationYear": "1977",
+  "avgRating": "9.48",
+  "reviewCount": "125",
+  "pageCount": "657" 
+  },
+{
+  "id": "134",
+  "title": "The Punishing Rain", 
+  "fullName": "Pam Sanders", 
+  "genre": "Romance",
+  "publicationYear": "1958",
+  "avgRating": "7.64",
+  "reviewCount": "3",
+  "pageCount": "613" 
+  },
+{
+  "id": "135",
+  "title": "Deciding Clover", 
+  "fullName": "John Kalleg", 
+  "genre": "Romance",
+  "publicationYear": "1950",
+  "avgRating": "2.43",
+  "reviewCount": "84",
+  "pageCount": "700" 
+  },
+{
+  "id": "136",
+  "title": "Arrogant", 
+  "fullName": "Ulysses Murphy", 
+  "genre": "SciFi",
+  "publicationYear": "1932",
+  "avgRating": "7.99",
+  "reviewCount": "110",
+  "pageCount": "388" 
+  },
+{
+  "id": "137",
+  "title": "Young Building", 
+  "fullName": "Tully Lee", 
+  "genre": "Fantasy",
+  "publicationYear": "1923",
+  "avgRating": "6.39",
+  "reviewCount": "91",
+  "pageCount": "692" 
+  },
+{
+  "id": "138",
+  "title": "Alcatraz", 
+  "fullName": "Poala Diaz", 
+  "genre": "SciFi",
+  "publicationYear": "1919",
+  "avgRating": "3.66",
+  "reviewCount": "139",
+  "pageCount": "326" 
+  },
+{
+  "id": "139",
+  "title": "Great", 
+  "fullName": "Matthew Jenkins", 
+  "genre": "Biography",
+  "publicationYear": "1819",
+  "avgRating": "7.99",
+  "reviewCount": "184",
+  "pageCount": "293" 
+  },
+{
+  "id": "140",
+  "title": "Sky and Spring", 
+  "fullName": "Roger Reyes", 
+  "genre": "SciFi",
+  "publicationYear": "2015",
+  "avgRating": "9.90",
+  "reviewCount": "123",
+  "pageCount": "325" 
+  },
+{
+  "id": "141",
+  "title": "Break", 
+  "fullName": "Walter Davis", 
+  "genre": "YA",
+  "publicationYear": "1994",
+  "avgRating": "8.35",
+  "reviewCount": "198",
+  "pageCount": "585" 
+  },
+{
+  "id": "142",
+  "title": "Subtle Arm", 
+  "fullName": "Kim Baker", 
+  "genre": "Horror",
+  "publicationYear": "2007",
+  "avgRating": "8.43",
+  "reviewCount": "126",
+  "pageCount": "296" 
+  },
+{
+  "id": "143",
+  "title": "The Missing Animal", 
+  "fullName": "T.S. Cook", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1913",
+  "avgRating": "2.52",
+  "reviewCount": "185",
+  "pageCount": "427" 
+  },
+{
+  "id": "144",
+  "title": "Window", 
+  "fullName": "Ellen Rodriguez", 
+  "genre": "Horror",
+  "publicationYear": "1844",
+  "avgRating": "1.55",
+  "reviewCount": "132",
+  "pageCount": "351" 
+  },
+{
+  "id": "145",
+  "title": "Passing Preacher", 
+  "fullName": "Hank Reardon", 
+  "genre": "Drama",
+  "publicationYear": "1896",
+  "avgRating": "5.13",
+  "reviewCount": "39",
+  "pageCount": "441" 
+  },
+{
+  "id": "146",
+  "title": "Call", 
+  "fullName": "Mandy Schmitt", 
+  "genre": "Horror",
+  "publicationYear": "1936",
+  "avgRating": "3.09",
+  "reviewCount": "172",
+  "pageCount": "333" 
+  },
+{
+  "id": "147",
+  "title": "The Dueling Preacher", 
+  "fullName": "Ike Caswell", 
+  "genre": "Fantasy",
+  "publicationYear": "1861",
+  "avgRating": "9.43",
+  "reviewCount": "154",
+  "pageCount": "459" 
+  },
+{
+  "id": "148",
+  "title": "Spectre in Glockhorn Abbey", 
+  "fullName": "Roger Jones", 
+  "genre": "Horror",
+  "publicationYear": "1768",
+  "avgRating": "3.53",
+  "reviewCount": "168",
+  "pageCount": "260" 
+  },
+{
+  "id": "149",
+  "title": "Deliver", 
+  "fullName": "L Yates", 
+  "genre": "Drama",
+  "publicationYear": "1986",
+  "avgRating": "7.59",
+  "reviewCount": "96",
+  "pageCount": "292" 
+  },
+{
+  "id": "150",
+  "title": "Homeless", 
+  "fullName": "Charlie Martin", 
+  "genre": "YA",
+  "publicationYear": "1860",
+  "avgRating": "9.02",
+  "reviewCount": "17",
+  "pageCount": "654" 
+  },
+{
+  "id": "151",
+  "title": "The Serpent of Space", 
+  "fullName": "Wendy Linde", 
+  "genre": "Biography",
+  "publicationYear": "1965",
+  "avgRating": "3.35",
+  "reviewCount": "46",
+  "pageCount": "727" 
+  },
+{
+  "id": "152",
+  "title": "Years Six Pence", 
+  "fullName": "Beatrice King", 
+  "genre": "Romance",
+  "publicationYear": "1918",
+  "avgRating": "6.91",
+  "reviewCount": "78",
+  "pageCount": "423" 
+  },
+{
+  "id": "153",
+  "title": "Delivering in the Moors", 
+  "fullName": "Queen Moore", 
+  "genre": "Fantasy",
+  "publicationYear": "1799",
+  "avgRating": "7.92",
+  "reviewCount": "66",
+  "pageCount": "481" 
+  },
+{
+  "id": "154",
+  "title": "Prickly Snow", 
+  "fullName": "Ingrid Boyd", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1943",
+  "avgRating": "1.01",
+  "reviewCount": "110",
+  "pageCount": "251" 
+  },
+{
+  "id": "155",
+  "title": "The Deciding Moon", 
+  "fullName": "John Cooper", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1941",
+  "avgRating": "8.30",
+  "reviewCount": "49",
+  "pageCount": "172" 
+  },
+{
+  "id": "156",
+  "title": "Destitute the Cat", 
+  "fullName": "Steve Adams", 
+  "genre": "YA",
+  "publicationYear": "1920",
+  "avgRating": "7.64",
+  "reviewCount": "95",
+  "pageCount": "160" 
+  },
+{
+  "id": "157",
+  "title": "The Missing Blood", 
+  "fullName": "Matthew Ferro", 
+  "genre": "Romance",
+  "publicationYear": "1937",
+  "avgRating": "8.38",
+  "reviewCount": "161",
+  "pageCount": "665" 
+  },
+{
+  "id": "158",
+  "title": "Wealthy", 
+  "fullName": "Peter Hill", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1995",
+  "avgRating": "5.57",
+  "reviewCount": "177",
+  "pageCount": "351" 
+  },
+{
+  "id": "159",
+  "title": "Erupting House", 
+  "fullName": "A.K. Turner", 
+  "genre": "YA",
+  "publicationYear": "1923",
+  "avgRating": "6.55",
+  "reviewCount": "21",
+  "pageCount": "242" 
+  },
+{
+  "id": "160",
+  "title": "Rich Winter", 
+  "fullName": "Paul Cruz", 
+  "genre": "Horror",
+  "publicationYear": "1997",
+  "avgRating": "9.18",
+  "reviewCount": "77",
+  "pageCount": "688" 
+  },
+{
+  "id": "161",
+  "title": "The Hitting Princess", 
+  "fullName": "Wendy Turner", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1989",
+  "avgRating": "5.61",
+  "reviewCount": "36",
+  "pageCount": "723" 
+  },
+{
+  "id": "162",
+  "title": "The Swimming Clock", 
+  "fullName": "Alicia McCormack", 
+  "genre": "Fantasy",
+  "publicationYear": "1903",
+  "avgRating": "8.25",
+  "reviewCount": "113",
+  "pageCount": "352" 
+  },
+{
+  "id": "163",
+  "title": "Poor", 
+  "fullName": "Kim Solberg", 
+  "genre": "Romance",
+  "publicationYear": "1767",
+  "avgRating": "2.66",
+  "reviewCount": "21",
+  "pageCount": "381" 
+  },
+{
+  "id": "164",
+  "title": "Thick", 
+  "fullName": "Paul Ross", 
+  "genre": "Drama",
+  "publicationYear": "2009",
+  "avgRating": "7.44",
+  "reviewCount": "125",
+  "pageCount": "618" 
+  },
+{
+  "id": "165",
+  "title": "Erupt", 
+  "fullName": "Ike Reed", 
+  "genre": "Fantasy",
+  "publicationYear": "1835",
+  "avgRating": "9.23",
+  "reviewCount": "64",
+  "pageCount": "436" 
+  },
+{
+  "id": "166",
+  "title": "Looking Cloud", 
+  "fullName": "Dan Ingram", 
+  "genre": "Romance",
+  "publicationYear": "1962",
+  "avgRating": "8.50",
+  "reviewCount": "24",
+  "pageCount": "646" 
+  },
+{
+  "id": "167",
+  "title": "The Wild West", 
+  "fullName": "Dan Jones", 
+  "genre": "Drama",
+  "publicationYear": "1890",
+  "avgRating": "2.62",
+  "reviewCount": "162",
+  "pageCount": "309" 
+  },
+{
+  "id": "168",
+  "title": "Purple Building", 
+  "fullName": "Beatrice Hydinger", 
+  "genre": "SciFi",
+  "publicationYear": "1840",
+  "avgRating": "9.44",
+  "reviewCount": "75",
+  "pageCount": "572" 
+  },
+{
+  "id": "169",
+  "title": "Happy", 
+  "fullName": "Frank Smith", 
+  "genre": "Fantasy",
+  "publicationYear": "1985",
+  "avgRating": "7.52",
+  "reviewCount": "110",
+  "pageCount": "421" 
+  },
+{
+  "id": "170",
+  "title": "Looking Window", 
+  "fullName": "Beth Gonzalez", 
+  "genre": "Fantasy",
+  "publicationYear": "1976",
+  "avgRating": "8.25",
+  "reviewCount": "119",
+  "pageCount": "656" 
+  },
+{
+  "id": "171",
+  "title": "Running in Oz", 
+  "fullName": "Dan Maki", 
+  "genre": "SciFi",
+  "publicationYear": "1894",
+  "avgRating": "3.31",
+  "reviewCount": "98",
+  "pageCount": "555" 
+  },
+{
+  "id": "172",
+  "title": "Cold", 
+  "fullName": "Rebecca Dugan", 
+  "genre": "SciFi",
+  "publicationYear": "1971",
+  "avgRating": "9.86",
+  "reviewCount": "193",
+  "pageCount": "710" 
+  },
+{
+  "id": "173",
+  "title": "Clock Bear", 
+  "fullName": "Catherine Ross", 
+  "genre": "YA",
+  "publicationYear": "1929",
+  "avgRating": "4.91",
+  "reviewCount": "85",
+  "pageCount": "602" 
+  },
+{
+  "id": "174",
+  "title": "Stone", 
+  "fullName": "Ingrid Davidson", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1992",
+  "avgRating": "3.47",
+  "reviewCount": "71",
+  "pageCount": "218" 
+  },
+{
+  "id": "175",
+  "title": "Water Trial", 
+  "fullName": "Kim Johnsen", 
+  "genre": "Horror",
+  "publicationYear": "1895",
+  "avgRating": "4.62",
+  "reviewCount": "51",
+  "pageCount": "307" 
+  },
+{
+  "id": "176",
+  "title": "Wizard in the Alps", 
+  "fullName": "Monte Bell", 
+  "genre": "YA",
+  "publicationYear": "2003",
+  "avgRating": "9.43",
+  "reviewCount": "89",
+  "pageCount": "275" 
+  },
+{
+  "id": "177",
+  "title": "Swimming in the Chamber", 
+  "fullName": "Georgia Ziegler", 
+  "genre": "Romance",
+  "publicationYear": "1985",
+  "avgRating": "9.17",
+  "reviewCount": "1",
+  "pageCount": "560" 
+  },
+{
+  "id": "178",
+  "title": "Gardenvale", 
+  "fullName": "Ebony Rogers", 
+  "genre": "Romance",
+  "publicationYear": "1903",
+  "avgRating": "6.84",
+  "reviewCount": "170",
+  "pageCount": "218" 
+  },
+{
+  "id": "179",
+  "title": "Leaning in Long Beach", 
+  "fullName": "Dan Lewis", 
+  "genre": "YA",
+  "publicationYear": "1856",
+  "avgRating": "6.65",
+  "reviewCount": "79",
+  "pageCount": "577" 
+  },
+{
+  "id": "180",
+  "title": "Frozen", 
+  "fullName": "T.S. Yang", 
+  "genre": "SciFi",
+  "publicationYear": "1995",
+  "avgRating": "9.22",
+  "reviewCount": "82",
+  "pageCount": "390" 
+  },
+{
+  "id": "181",
+  "title": "Crime in Heights", 
+  "fullName": "CJ Reed", 
+  "genre": "Biography",
+  "publicationYear": "2019",
+  "avgRating": "8.89",
+  "reviewCount": "185",
+  "pageCount": "497" 
+  },
+{
+  "id": "182",
+  "title": "Strange", 
+  "fullName": "Mark Thompson", 
+  "genre": "YA",
+  "publicationYear": "1989",
+  "avgRating": "4.36",
+  "reviewCount": "179",
+  "pageCount": "254" 
+  },
+{
+  "id": "183",
+  "title": "Sticky Princess", 
+  "fullName": "Olivia Dugelman", 
+  "genre": "Fantasy",
+  "publicationYear": "1966",
+  "avgRating": "9.93",
+  "reviewCount": "199",
+  "pageCount": "193" 
+  },
+{
+  "id": "184",
+  "title": "Destitute", 
+  "fullName": "Tully Morris", 
+  "genre": "YA",
+  "publicationYear": "1850",
+  "avgRating": "6.21",
+  "reviewCount": "156",
+  "pageCount": "478" 
+  },
+{
+  "id": "185",
+  "title": "Water and Straw", 
+  "fullName": "George Campbell", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1902",
+  "avgRating": "9.86",
+  "reviewCount": "112",
+  "pageCount": "389" 
+  },
+{
+  "id": "186",
+  "title": "The Salesman House", 
+  "fullName": "Beatrice Robinson", 
+  "genre": "Drama",
+  "publicationYear": "1787",
+  "avgRating": "3.96",
+  "reviewCount": "167",
+  "pageCount": "553" 
+  },
+{
+  "id": "187",
+  "title": "Rich Moon", 
+  "fullName": "George Collins", 
+  "genre": "SciFi",
+  "publicationYear": "1839",
+  "avgRating": "9.10",
+  "reviewCount": "48",
+  "pageCount": "285" 
+  },
+{
+  "id": "188",
+  "title": "The the Cat of Nowhereland", 
+  "fullName": "Patricia Ward", 
+  "genre": "YA",
+  "publicationYear": "1933",
+  "avgRating": "8.37",
+  "reviewCount": "48",
+  "pageCount": "611" 
+  },
+{
+  "id": "189",
+  "title": "Tangled Man", 
+  "fullName": "Mark Yang", 
+  "genre": "Fantasy",
+  "publicationYear": "2017",
+  "avgRating": "7.76",
+  "reviewCount": "44",
+  "pageCount": "265" 
+  },
+{
+  "id": "190",
+  "title": "Wealthy", 
+  "fullName": "Mandy Chambers", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1844",
+  "avgRating": "1.83",
+  "reviewCount": "120",
+  "pageCount": "345" 
+  },
+{
+  "id": "191",
+  "title": "Broken", 
+  "fullName": "Charlie Ortiz", 
+  "genre": "Drama",
+  "publicationYear": "1764",
+  "avgRating": "9.39",
+  "reviewCount": "64",
+  "pageCount": "679" 
+  },
+{
+  "id": "192",
+  "title": "The Delivering Seasons", 
+  "fullName": "Olivia Cataldi", 
+  "genre": "Drama",
+  "publicationYear": "1947",
+  "avgRating": "5.42",
+  "reviewCount": "129",
+  "pageCount": "302" 
+  },
+{
+  "id": "193",
+  "title": "The Snow of Gardenvale", 
+  "fullName": "Julie Ory", 
+  "genre": "Literary Fiction",
+  "publicationYear": "1923",
+  "avgRating": "9.07",
+  "reviewCount": "68",
+  "pageCount": "354" 
+  },
+{
+  "id": "194",
+  "title": "Bear", 
+  "fullName": "David Cook", 
+  "genre": "Romance",
+  "publicationYear": "1953",
+  "avgRating": "9.43",
+  "reviewCount": "157",
+  "pageCount": "399" 
+  },
+{
+  "id": "195",
+  "title": "Poor", 
+  "fullName": "Larry Weiss", 
+  "genre": "YA",
+  "publicationYear": "1943",
+  "avgRating": "4.40",
+  "reviewCount": "157",
+  "pageCount": "339" 
+  },
+{
+  "id": "196",
+  "title": "Forbid", 
+  "fullName": "Rebecca Gutierrez", 
+  "genre": "Horror",
+  "publicationYear": "1795",
+  "avgRating": "9.92",
+  "reviewCount": "18",
+  "pageCount": "750" 
+  },
+{
+  "id": "197",
+  "title": "Solitude in Dreamworld", 
+  "fullName": "Victoria Wakefield", 
+  "genre": "SciFi",
+  "publicationYear": "1922",
+  "avgRating": "8.75",
+  "reviewCount": "163",
+  "pageCount": "647" 
+  },
+{
+  "id": "198",
+  "title": "Solitude in Dreamworld", 
+  "fullName": "Ike Thomas", 
+  "genre": "Biography",
+  "publicationYear": "1961",
+  "avgRating": "3.47",
+  "reviewCount": "110",
+  "pageCount": "297" 
+  },
+{
+  "id": "199",
+  "title": "Complaining Farm", 
+  "fullName": "Dan DeLorenzo", 
+  "genre": "YA",
+  "publicationYear": "1881",
+  "avgRating": "8.86",
+  "reviewCount": "123",
+  "pageCount": "604" 
+  }
+]

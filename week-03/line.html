@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 Workshop: Line Chart</title>
+  <style>
+    .line {
+      fill: none;
+      stroke: red;
+      stroke-width: 2;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="linechart"></div>
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+
+  <script>
+    let margin = { top: 30, right: 30, bottom: 30, left: 50 },
+      width = 960 - margin.right - margin.left,
+      height = 500 - margin.top - margin.bottom;
+
+    let svg = d3.select('#linechart')
+      .append('svg')
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height + margin.top + margin.bottom)
+      .append('g')
+      .attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+    d3.json('covid-confirmed-us.json')
+      .then((results) => {
+        let Alabama = results[0].cases;
+
+        //x scale
+        let x = d3.scaleTime()
+          .domain([new Date('3/1/20'), new Date('11/13/20')])
+          .range([0, width]);
+
+        //y scale
+        let y = d3.scaleLinear()
+          .domain([0, d3.max(Alabama, d => d.count)])
+          .range([height, 0]); 
+
+        svg.append('g')
+          .call(d3.axisLeft(y));
+
+        svg.append('g')
+          .attr('transform', `translate(0, ${height})`)
+          .call(d3.axisBottom(x));
+
+        let line = d3.line()
+          .x(d => x(new Date(d.date)))
+          .y(d => y(d.count))
+          .curve(d3.curveMonotoneX);
+        
+        svg.append('path')
+          .datum(Alabama)
+          .attr('class', 'line')
+          .attr('d', line);
+          
+
+      }).catch((error) => {
+        throw error;
+      });
+  </script>
+</body>
+
+</html>
