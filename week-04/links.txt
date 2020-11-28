@@ -1,7 +1,7 @@
 US State County Map: https://observablehq.com/@jeantimex/us-state-county-map 
 US State Map: https://observablehq.com/@mbostock/u-s-state-map
 Chloropleth: https://observablehq.com/@d3/choropleth
-Spikes: https://observablehq.com/@d3/spike-map?collection=@d3/d3-geo
+
 Projections module: https://github.com/d3/d3-geo-projection
 Projections module example: https://observablehq.com/@fil/d3-projections 
 Data Maps: https://datamaps.github.io/ 
@@ -12,3 +12,12 @@ Topojson cdn: https://d3js.org/topojson.v2.min.js
 US Atlas: https://github.com/topojson/us-atlas 
 World Atlas: https://github.com/topojson/world-atlas 
 Color Legend: https://observablehq.com/@d3/color-legend
+
+
+Spikes: https://observablehq.com/@d3/spike-map?collection=@d3/d3-geo
+Hexabin: https://observablehq.com/@d3/hexbin-map 
+Dot Density: https://observablehq.com/@aboutaaron/racial-demographic-dot-density-map
+Cartogram: https://observablehq.com/@severo/grid-cartograms 
+US Vornoi: https://observablehq.com/@mbostock/u-s-voronoi-map-o-matic
+Geo Force Graph: https://observablehq.com/@benoldenburg/geo-force-graph-us-states 
+Methods of Comparison: https://observablehq.com/@mbostock/methods-of-comparison-compared 
