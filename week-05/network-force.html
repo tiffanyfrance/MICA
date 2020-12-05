@@ -77,52 +77,7 @@
       .attr('viewBox', [0, 0, width, height]);
 
 
-    const link = svg.append("g")
-      .selectAll("line")
-      .data(links)
-      .join("line")
-      .attr("stroke-width", 1)
-      .attr("stroke", "#999")
-      .attr("stroke-opacity", 0.6);
-
-    const node = svg.append("g")
-      .selectAll("circle")
-      .data(nodes)
-      .join("circle")
-      .attr("r", 10)
-      .attr("fill", (d, i) => color[i])
-      .attr("stroke", "#fff")
-      .attr("stroke-width", 1.5)
-      .call(drag);
-
-    const text = svg.append('g')
-      .selectAll("text")
-      .data(nodes)
-      .enter()
-      .append("text")
-      .text(d => d.name)
-      .attr("width", 50)
-      .attr('text-anchor', 'middle')
-      .attr('font-size', 10)
-      .attr('font-family', 'sans-serif')
-      .attr('dy', '-10px');
-
-
-    simulation.on("tick", () => {
-      link
-        .attr("x1", d => d.source.x)
-        .attr("y1", d => d.source.y)
-        .attr("x2", d => d.target.x)
-        .attr("y2", d => d.target.y);
-
-      node
-        .attr("cx", d => d.x)
-        .attr("cy", d => d.y);
-
-      text
-        .attr("x", d => d.x)
-        .attr("y", d => d.y);
-    });
+    // build viz here
 
   </script>
 

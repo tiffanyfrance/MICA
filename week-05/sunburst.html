@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D3 Workshop: Sunburst Partition</title>
+  <style>
+    .text-layer,
+    text {
+      pointer-events: none;
+      text-anchor: middle;
+      font-size: 10px;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <svg width="900" height="900" viewbox="-450 -450 900 900"></svg>
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script>
+
+    d3.json('flare-2.json')
+      .then((data) => {
+
+        let width = d3.select('svg').node().getBoundingClientRect().width,
+          radius = width / 2;
+
+        let svg = d3.select('svg')
+          .append('g');
+
+        let color = d3.scaleOrdinal(d3.quantize(d3.interpolateSpectral, data.children.length + 1));
+
+        let format = d3.format(",d");
+
+        let arc = d3.arc()
+          .startAngle(d => d.x0)
+          .endAngle(d => d.x1)
+          .padAngle(d => Math.min((d.x1 - d.x0) / 2, 0.005))
+          .padRadius(radius / 2)
+          .innerRadius(d => d.y0)
+          .outerRadius(d => d.y1 - 1);
+
+        // build viz here
+
+
+
+        // svg.append("g")
+        //   .attr('class', 'text-layer')
+        //   .selectAll("text")
+        //   .data(rootNode.descendants().filter(d => d.depth && (d.y0 + d.y1) / 2 * (d.x1 - d.x0) > 10))
+        //   .join("text")
+        //   .attr("transform", function (d) {
+        //     const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;
+        //     const y = (d.y0 + d.y1) / 2;
+        //     return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
+        //   })
+        //   .attr("dy", "0.35em")
+        //   .text(d => d.data.name);
+
+
+      }).catch((error) => {
+        throw error;
+      });
+
+
+  </script>
+
+</body>
+
+</html>
