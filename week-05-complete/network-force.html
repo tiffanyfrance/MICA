@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+
+  <script>
+
+    const nodes = [
+      { name: 'Mary' },
+      { name: 'Bill' },
+      { name: 'Sarah' },
+      { name: 'Sue' },
+      { name: 'Paul' },
+      { name: 'Diana' },
+      { name: 'Cassidy' },
+      { name: 'Johnson' },
+      { name: 'Sally' },
+      { name: 'Jiang' }
+    ]
+
+    const links = [
+      { source: 'Mary', target: 'Sarah' },
+      { source: 'Mary', target: 'Bill' },
+      { source: 'Mary', target: 'Sue' },
+      { source: 'Sarah', target: 'Diana' },
+      { source: 'Sue', target: 'Paul' },
+      { source: 'Sue', target: 'Cassidy' },
+      { source: 'Paul', target: 'Diana' },
+      { source: 'Paul', target: 'Cassidy' },
+      { source: 'Jiang', target: 'Sarah' },
+      { source: 'Jiang', target: 'Bill' },
+      { source: 'Jiang', target: 'Sue' },
+      { source: 'Johnson', target: 'Diana' },
+      { source: 'Sue', target: 'Sally' },
+      { source: 'Sally', target: 'Cassidy' },
+      { source: 'Paul', target: 'Sally' },
+      { source: 'Paul', target: 'Cassidy' }
+    ]
+
+    let width = 900,
+      height = 500;
+
+    let color = d3.schemeCategory10;
+
+    const simulation = d3.forceSimulation(nodes)
+      .force("link", d3.forceLink(links).id(d => d.name))
+      .force("charge", d3.forceManyBody().strength(-500))
+      .force("center", d3.forceCenter(width / 2, height / 2));
+
+
+    const drag = d3.drag()
+      .on("start", (event) => {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        event.subject.fx = event.subject.x;
+        event.subject.fy = event.subject.y;
+      })
+      .on("drag", (event) => {
+        event.subject.fx = event.x;
+        event.subject.fy = event.y;
+      })
+      .on("end", (event) => {
+        if (!event.active) simulation.alphaTarget(0);
+        event.subject.fx = null;
+        event.subject.fy = null;
+      });
+
+    const svg = d3.select("body")
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height)
+      .attr("viewBox", [0, 0, width, height]);
+
+
+
+    const link = svg.append("g")
+      .attr("stroke", "#999")
+      .attr("stroke-opacity", 0.6) // show
+      // .attr("stroke-opacity", 0)
+      .selectAll("line")
+      .data(links)
+      .join("line")
+      .attr("stroke-width", d => Math.sqrt(d.value));
+
+
+
+    const node = svg.append("g")
+      .attr("stroke", "#fff")
+      .attr("stroke-width", 1.5)
+      .selectAll("circle")
+      .data(nodes)
+      .join("circle")
+      .attr("r", 10)
+      .attr("fill", (d, i) => color[i])
+      .call(drag);
+
+    let text = svg.append('g')
+      .selectAll("text")
+      .data(nodes)
+      .enter()
+      .append("text")
+      .text(d => d.name)
+      .attr("width", 50)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', 10)
+      .attr('font-family', 'sans-serif')
+      .attr('dy', '-10px');
+
+
+    simulation.on("tick", () => {
+      link
+        .attr("x1", d => d.source.x)
+        .attr("y1", d => d.source.y)
+        .attr("x2", d => d.target.x)
+        .attr("y2", d => d.target.y);
+
+      node
+        .attr("cx", d => d.x)
+        .attr("cy", d => d.y);
+
+      text
+        .attr("x", d => d.x)
+        .attr("y", d => d.y);
+    });
+
+
+
+
+  </script>
+
+</body>
+
+</html>

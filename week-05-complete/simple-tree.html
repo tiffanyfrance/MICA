@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D3 Workshop: Simple Tree</title>
+</head>
+
+<body>
+
+  <!-- load the d3.js library -->
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script>
+
+    let treeData =
+    {
+      "name": "Henry VI",
+      "children": [
+        { "name": "Arthur" },
+        { "name": "Margaret" },
+        {
+          "name": "Henry VIII",
+          "children": [
+            { "name": "Mary" },
+            { "name": "Elizabeth" },
+            { "name": "Edward" }
+          ]
+        },
+        { "name": "Elizabeth" },
+        { "name": "Mary" },
+        { "name": "Edward" },
+        { "name": "Edmund" },
+        { "name": "Katherine" }
+      ]
+    };
+
+    let margin = { top: 40, right: 90, bottom: 50, left: 90 },
+      width = 660 - margin.left - margin.right,
+      height = 500 - margin.top - margin.bottom;
+
+    let svg = d3.select("body").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom),
+      g = svg.append("g")
+        .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+    let treeGraph = d3.tree()
+      .size([width, height]);
+
+    let nodes = d3.hierarchy(treeData);
+
+    nodes = treeGraph(nodes);
+
+    console.log(nodes.descendants().slice(1))
+
+    let link = g.selectAll(".link")
+      .data(nodes.links())
+      .join("path")
+      .attr("d", d3.linkHorizontal()
+        .x(d => d.y)
+        .y(d => d.x))
+      .attr('fill', 'none')
+      .attr('stroke', '#ccc')
+      .attr('stroke-width', 2);
+
+
+    let node = g.selectAll(".node")
+      .data(nodes.descendants())
+      .join("g")
+      .attr("transform", d => `translate(${d.y},${d.x})`);
+
+    node.append("circle")
+      .attr("r", 6)
+      .attr('fill', 'steelblue');
+
+    node.append("text")
+      .attr("dy", ".35em")
+      .attr("x", 12)
+      .text(d => d.data.name)
+      .style('font-family', 'sans-serif')
+      .style('font-size', 10);
+
+  </script>
+</body>
+
+</html>

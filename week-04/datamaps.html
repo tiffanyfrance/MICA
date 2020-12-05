@@ -10,9 +10,10 @@
       text-align: center;
       font-family: sans-serif;
     }
+
     #container {
-      position: relative; 
-      width: 800px; 
+      position: relative;
+      width: 800px;
       height: 500px;
     }
   </style>
@@ -26,7 +27,29 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.5.9/datamaps.all.min.js"></script>
 
-  <script></script>
+  <script>
+    var basic_choropleth = new Datamap({
+      element: document.getElementById("container"),
+      projection: 'mercator',
+      fills: {
+        defaultFill: "#ABDDA4",
+        authorHasTraveledTo: "#fa0fa0",
+        authorWantsToTravelTo: "blue"
+      },
+      data: {
+        USA: { fillKey: "authorHasTraveledTo" },
+        JPN: { fillKey: "authorWantsToTravelTo" },
+        ITA: { fillKey: "authorWantsToTravelTo" },
+        CRI: { fillKey: "authorHasTraveledTo" },
+        KOR: { fillKey: "authorHasTraveledTo" },
+        DEU: { fillKey: "authorHasTraveledTo" },
+      }
+    });
+
+    map.legend();
+
+    var colors = d3.scale.category10();
+  </script>
 
 </body>
 

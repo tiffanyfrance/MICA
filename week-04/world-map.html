@@ -46,6 +46,19 @@
           .enter().append("path")
           .attr("d", path);
 
+        g.append('path')
+          .datum(topojson.mesh(world, world.objects.countries, (a, b) => a !== b))
+          .attr('fill', 'none')
+          .attr('stroke', 'white')
+          .attr('d', path);
+        
+        const zoom = d3.zoom()
+          .on('zoom', (event, d) => {
+            g.attr('transform', event.transform)
+          })
+        
+        g.call(zoom);
+
       }).catch((error) => {
         throw error;
       });

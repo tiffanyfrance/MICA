@@ -1,0 +1,14 @@
+US State County Map: https://observablehq.com/@jeantimex/us-state-county-map 
+US State Map: https://observablehq.com/@mbostock/u-s-state-map
+Chloropleth: https://observablehq.com/@d3/choropleth
+Spikes: https://observablehq.com/@d3/spike-map?collection=@d3/d3-geo
+Projections module: https://github.com/d3/d3-geo-projection
+Projections module example: https://observablehq.com/@fil/d3-projections 
+Data Maps: https://datamaps.github.io/ 
+
+
+Topojson: https://github.com/topojson/topojson-client 
+Topojson cdn: https://d3js.org/topojson.v2.min.js
+US Atlas: https://github.com/topojson/us-atlas 
+World Atlas: https://github.com/topojson/world-atlas 
+Color Legend: https://observablehq.com/@d3/color-legend
