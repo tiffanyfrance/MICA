@@ -19,13 +19,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bumbeishvili/d3-tip-for-v6@4/d3-tip.min.css">
 
   <script>
+
     let margin = { top: 50, right: 0, bottom: 0, left: 0 },
       width = 900,
       height = 1200;
 
-    const tip = d3.tip()
+    let tip = d3.tip()
       .attr('class', 'd3-tip')
-      .html((e,d) => d.data.name);
+      .html((e, d) => d.data.name);
 
     const svg = d3.select('body')
       .append('svg')
@@ -39,12 +40,14 @@
 
         let color = d3.scaleOrdinal(d3.quantize(d3.interpolateSpectral, data.children.length + 1));
 
+
+        // build viz here
         let partitionLayout = d3.partition()
           .size([width, height]);
 
         let rootNode = d3.hierarchy(data)
           .sum(d => d.value);
-
+        
         partitionLayout(rootNode);
 
         svg.selectAll('rect')
@@ -62,7 +65,7 @@
           })
           .on('mouseover', tip.show);
 
-          svg.call(tip);
+        svg.call(tip);
 
       }).catch((error) => {
         throw error;

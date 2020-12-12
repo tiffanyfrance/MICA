@@ -6,10 +6,4 @@ Bubble Chart with Force - https://observablehq.com/@jett/bubble-chart-split-my-r
 
 d3-force Documentation - https://github.com/d3/d3-force
 
-D3 in Depth Force Layout - https://www.d3indepth.com/force-layout/ 1
-
-D3 tip - https://www.npmjs.com/package/d3-v6-tip
-
-D3 format - https://observablehq.com/@d3/d3-format
-
-D3 sum - https://observablehq.com/@d3/d3-sum
+D3 in Depth Force Layout - https://www.d3indepth.com/force-layout/ 

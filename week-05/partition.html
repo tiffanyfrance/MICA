@@ -15,10 +15,17 @@
 <body>
 
   <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://unpkg.com/d3-v6-tip@1.0.6/build/d3-v6-tip.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bumbeishvili/d3-tip-for-v6@4/d3-tip.min.css">
+
   <script>
     let margin = { top: 50, right: 0, bottom: 0, left: 0 },
       width = 900,
       height = 1200;
+
+    const tip = d3.tip()
+      .attr('class', 'd3-tip')
+      .html((e,d) => d.data.name);
 
     const svg = d3.select('body')
       .append('svg')
@@ -32,7 +39,30 @@
 
         let color = d3.scaleOrdinal(d3.quantize(d3.interpolateSpectral, data.children.length + 1));
 
-        // build viz here
+        let partitionLayout = d3.partition()
+          .size([width, height]);
+
+        let rootNode = d3.hierarchy(data)
+          .sum(d => d.value);
+
+        partitionLayout(rootNode);
+
+        svg.selectAll('rect')
+          .data(rootNode.descendants())
+          .enter()
+          .append('rect')
+          .attr('x', d => d.y0)
+          .attr('y', d => d.x0)
+          .attr('width', d => d.y1 - d.y0)
+          .attr('height', d => d.x1 - d.x0)
+          .attr('fill', d => {
+            if (!d.depth) return "#ccc";
+            while (d.depth > 1) d = d.parent;
+            return color(d.data.name);
+          })
+          .on('mouseover', tip.show);
+
+          svg.call(tip);
 
       }).catch((error) => {
         throw error;
